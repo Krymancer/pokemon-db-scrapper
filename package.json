@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-db-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/xmldom": "^0.1.31",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
